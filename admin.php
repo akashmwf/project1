@@ -5,7 +5,7 @@ $epr=$msg='';
 if($sql === FALSE) { 
     die(mysql_error()); // TODO: better error handling
 }
-
+echo "hello";
 if(isset($_GET['epr']))
 	$epr=$_GET['epr'];
 
